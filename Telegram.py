@@ -34,7 +34,7 @@ def handler(message):
 		markup1.add(item1, item2)
 		
 		try:
-			text = open('EmailSender/users.txt').read()
+			text = open('users.txt').read()
 		except:
 			bot.send_message(message.from_user.id, 'Ошибка при открытии базы данных с пользователями! Aborting...')
 			print('Ошибка при открытии базы данных с пользователями! Aborting...')
