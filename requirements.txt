@@ -1,4 +1,3 @@
 pyTelegramBotAPI
-smtplib
 random
 email
