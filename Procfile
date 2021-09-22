@@ -1,1 +1,1 @@
-web: python ./Telegram.py -p $PORT
+worker: python ./Telegram.py
