@@ -10,8 +10,6 @@ from email.utils import formataddr
 
 import random
 
-import heroku
-
 body = """"""
 
 token = '1917850999:AAE-oToU73zT-HsoMMMMcLh4f2-0accEUB4'
