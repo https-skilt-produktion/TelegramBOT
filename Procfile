@@ -1,1 +1,1 @@
-web: python3 Telegram.py --bind :$PORT
+worker: python3 Telegram.py --bind :$PORT
