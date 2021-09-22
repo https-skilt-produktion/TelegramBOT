@@ -1,1 +1,1 @@
-bot: python3 EmailSender.py
+bot: python3 Telegram.py
