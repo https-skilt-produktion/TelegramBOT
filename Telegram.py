@@ -274,7 +274,6 @@ def getSniffer(message):
 		bot.send_message(message.from_user.id, 'Система: ' + systemText + '\nEmail получателя: ' + emailText + '\nИмя получателя: ' + notMyNameText + '\nСсылка на сниффер: ' + snifferText + '.', reply_markup=markup2)
 
 if __name__ == '__main__':
-	heroku config:add PORT=5000
 	bot.polling(none_stop=True)
 
 #Termux: cd $HOME && cp -r /storage/emulated/0/EmailSender $HOME && python3 EmailSender/Telegram.py
