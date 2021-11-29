@@ -12,7 +12,7 @@ import random
 
 body = """"""
 
-token = '1917850999:AAE-oToU73zT-HsoMMMMcLh4f2-0accEUB4'
+token = '2123402613:AAENrLm5bcgfGg269EgryaXQ31rbsmMQW94'
 bot = telebot.TeleBot(token)
 
 systemText = ''
